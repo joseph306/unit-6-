@@ -49,4 +49,8 @@ nav{
  ul li:hover ul{
     display: block;
  }
+ footer{
+     color: white;
+     background-color: black;
+ }
  
