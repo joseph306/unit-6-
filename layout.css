@@ -66,6 +66,7 @@ li a:hover{
    padding-left: 15%;
  }
   h2{
+   border:2px solid black;
     color: red;
     text-shadow: black 2px 2px 1px;
    text-align: center;
@@ -79,6 +80,10 @@ li a:hover{
    color: white;
    background-color: black;
  }
+ div.col-2-3{
+   background: linear-gradient(white 15%,
+   rgb(215,215,215) ); 
+ }
  ul#stories{
    padding-left: 30px;
    margin-top: 20px;
@@ -87,19 +92,24 @@ li a:hover{
    margin-left: auto;
 }
 ul#stories li{
+   border-radius: 30px;
+   padding: 15px;
    display: block;
    margin-top: 30px;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    margin-left: auto;
 }
 
 ul#stories img{
+   clear: left;
+   float: left;
    height: 20%;
    width: 20%;
 }
 ul#stories p{
-    background-color: red;
-   box-shadow:inset black 5px 0px 15px;
+   border:1px solid black;
+   background-color: red;
+   box-shadow: inset black 2px 0px 5px;
     padding: 15px;
     border-radius: 20px;
     float: left;
@@ -108,6 +118,7 @@ ul#stories p{
  div#site p{
    font-size: 20px;
    text-align: center;
+   border:1px solid black;
    background-color: red;
    box-shadow: inset black 2px 0px 5px;
    margin: 25px;
@@ -123,6 +134,7 @@ article#main p{
    text-align: center;
 }
 article#main h1{
+   border:1px solid black;
    text-align: center;
    margin: 25px;
    border-radius: 20px;
@@ -130,7 +142,10 @@ article#main h1{
    box-shadow: inset black 2px 0px 5px;
    font-size: 20px;
 }
-
+div.col-1-3 > img{
+   width: 100%;
+   height: 100%;
+}
 li{
    text-decoration: none;
 }
