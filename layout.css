@@ -81,7 +81,7 @@ ul#stories img{
    height: 20%;
    width: 20%;
 }
-p{
+ul#stories p{
     background-color: red;
    box-shadow:inset black 5px 0px 15px;
     padding: 15px;
@@ -89,7 +89,9 @@ p{
     float: left;
     width: 70%;
  }
-
+li{
+   text-decoration: none;
+}
 @font-face{
    font-family: Spooktober;
    src: url(Early\ Halloween\ Adventures.ttf);
