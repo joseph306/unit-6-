@@ -19,7 +19,10 @@ body{
    margin-left:auto;
    margin-right:auto;
 }
-
+div#logo{
+   padding-left: 15%;
+   background: black;
+}
 nav{
     background-color: black;
     padding-top: 12px;
