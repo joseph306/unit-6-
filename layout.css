@@ -62,6 +62,15 @@ li a:hover{
  ul li:hover ul{
     display: block;
  }
+ article > iframe{
+   padding-left: 15%;
+ }
+  h2{
+    color: red;
+    text-shadow: black 2px 2px 1px;
+   text-align: center;
+    font-size: 45px;
+ }
  footer{
     text-align: center;
     width: 100%;
@@ -96,6 +105,32 @@ ul#stories p{
     float: left;
     width: 70%;
  }
+ div#site p{
+   font-size: 20px;
+   text-align: center;
+   background-color: red;
+   box-shadow: inset black 2px 0px 5px;
+   margin: 25px;
+   border-radius: 20px;
+ 
+ }
+div#site a{
+   color: black;
+   text-decoration: none;
+}
+article#main p{
+   margin-top: 20px;
+   text-align: center;
+}
+article#main h1{
+   text-align: center;
+   margin: 25px;
+   border-radius: 20px;
+   background-color: red;
+   box-shadow: inset black 2px 0px 5px;
+   font-size: 20px;
+}
+
 li{
    text-decoration: none;
 }
@@ -106,4 +141,7 @@ li{
 @font-face{
    font-family: Centralia;
    src: url(Centralia-GOOZA.ttf);
+}
+html{
+   font-family: centralia, serif;
 }
