@@ -89,3 +89,12 @@ ul#stories img{
     float: left;
     width: 70%;
  }
+
+@font-face{
+   font-family: Spooktober;
+   src: url(Early\ Halloween\ Adventures.ttf);
+}
+@font-face{
+   font-family: Centralia;
+   src: url(Centralia-GOOZA.ttf);
+}
