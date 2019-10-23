@@ -38,6 +38,10 @@ nav{
  ul li{
     float: left;
  }
+ ul#home li{
+    float: none;
+    padding-left: 40px;
+ }
 ul li a{
     width: 150px;
     color: white;
